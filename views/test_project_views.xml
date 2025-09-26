@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <!--    list View-->
+    <record id="view_test_project_list" model="ir.ui.view">
+        <field name="name">test.project.view.list</field>
+        <field name="model">test.project</field>
+        <field name="arch" type="xml">
+            <list string="Test Project">
+                <field name="name"/>
+            </list>
+        </field>
+    </record>
+
+<!--    form view-->
+    <record id="view_test_project_form" model="ir.ui.view">
+        <field name="name">test.project.view.form</field>
+        <field name="model">test.project</field>
+        <field name="arch" type="xml">
+            <form string="Test Project">
+                <sheet>
+                    <field name="name"/>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+
+
+
+
+</odoo>
